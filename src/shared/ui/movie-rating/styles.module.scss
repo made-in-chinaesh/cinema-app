@@ -1,0 +1,20 @@
+.rating {
+	@apply flex items-center justify-center text-white rounded-md;
+	width: 30px;
+	height: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	background: rgba(139, 136, 146, 0.32);
+}
+
+.small {
+	@apply text-sm;
+	width: 10px;
+	height: 15px;
+}
+
+.medium {
+	font-size: 18px;
+	width: 32px;
+	height: 28px;
+}

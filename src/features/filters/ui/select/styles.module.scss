@@ -1,0 +1,14 @@
+.select {
+	padding: 10px 15px;
+	border-radius: 8px;
+	background: #2d2d2d;
+	color: var(--color-white);
+	margin-right: 10px;
+	outline: none;
+	transition: 200ms;
+	cursor: pointer;
+
+	&:hover {
+		background: #3d3d3d;
+	}
+}

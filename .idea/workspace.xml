@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a209a030-8591-4271-b8fe-363c5b4951cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/anna_de_armas.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/styles/_globals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/styles/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/action/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/action/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/comedy/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/comedy/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/drama/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/drama/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/fantastic/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/fantastic/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/for-family/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/for-family/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/genres/config.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/genres/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/genres/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/genres/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/hero/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/hero/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/hero/ui/slide/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/hero/ui/slide/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/hero/ui/slide/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/hero/ui/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/info/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/info/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/home/ui/info/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/movie/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/movie/model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/movie/model/movie.slice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/movie/ui/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/movie/ui/main-section/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/movie/ui/main-section/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/movie/ui/main-section/ui/info/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/movie/ui/main-section/ui/info/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/movie/ui/main-section/ui/info/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/movie/ui/main-section/ui/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/movie/ui/movie-item/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/movie/ui/movie-item/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/movie/ui/movie-item/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/search-window/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/search-window/model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/search-window/model/search.slice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/filters/config/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/filters/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/filters/model/filter.slice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/filters/model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/filters/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/filters/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/filters/ui/select/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/filters/ui/select/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/filters/ui/select/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/filters/ui/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/film/[id].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/films.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/api/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/api/base.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/api/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/api/movie/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/api/movie/movie.api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/api/movie/movie.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/hooks/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/hooks/useActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/hooks/useHideScroll.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/hooks/useTypedSelector.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/routing/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/routing/paths.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/store/root-action.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/store/root-reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/store/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/carousel-multiply/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/carousel-multiply/lib/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/carousel-multiply/lib/use-dom-ref-with-setter/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/carousel-multiply/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/carousel-multiply/ui/slider-button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/carousel-multiply/ui/slider-button/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/carousel-multiply/ui/slider-button/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/carousel-multiply/ui/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/close-button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/close-button/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/close-button/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/modal/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/modal/lib/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/modal/lib/use-escape/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/modal/lib/use-escape/use-escape.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/modal/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/modal/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/movie-rating/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/movie-rating/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/movie-rating/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/spinner/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/spinner/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/spinner/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/title/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/title/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/title/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/utils/getAbbreviatedText.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/utils/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/utils/numberShorter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/catalog/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/catalog/lib/findGenreWithId.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/catalog/lib/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/catalog/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/catalog/ui/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/category/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/category/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/category/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/model/header.slice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/burger/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/burger/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/burger/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/logo/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/logo/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/logo/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/menu/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/menu/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/menu/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/nav/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/nav/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/nav/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/nav/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/search-button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/search-button/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/search-button/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/header/ui/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/layouts/base-layout/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/layouts/base-layout/ui.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/layouts/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_document.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/hello.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2T95eOTu0YvfsAtQuX0lMyGihho" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/baimyrzaevbeka/Desktop/projects/posts-app/frontend/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/baimyrzaevbeka/Desktop/projects/posts-app/frontend/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/baimyrzaevbeka/Desktop/projects/posts-app/frontend/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/widgets/catalog" />
+      <recent name="$PROJECT_DIR$/src/widgets/catalog/ui" />
+      <recent name="$PROJECT_DIR$/src/features/filters" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/pages/films" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a209a030-8591-4271-b8fe-363c5b4951cf" name="Changes" comment="" />
+      <created>1690442551052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690442551052</updated>
+      <workItem from="1690442553046" duration="54178000" />
+      <workItem from="1692109698213" duration="1001000" />
+      <workItem from="1692872106542" duration="221000" />
+      <workItem from="1692872361898" duration="160000" />
+      <workItem from="1692872583730" duration="23000" />
+      <workItem from="1692872615893" duration="4646000" />
+      <workItem from="1693047583777" duration="16046000" />
+      <workItem from="1693144408079" duration="16843000" />
+      <workItem from="1693373709537" duration="19569000" />
+      <workItem from="1694610822656" duration="1822000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

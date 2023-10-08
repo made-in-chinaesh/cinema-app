@@ -1,0 +1,35 @@
+.title {
+	font-size: 36px;
+	color: var(--color-white);
+	margin: 20px 0;
+}
+
+.grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 15px;
+	margin: 20px 0;
+
+	@media (max-width: 1300px) {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	@media (max-width: 750px) {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 12px;
+	}
+
+	@media (max-width: 500px) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+.loading {
+	padding: 10px 15px;
+	border: 1px solid gray;
+	background: rgba(157, 157, 157, 0.5);
+	width: fit-content;
+	border-radius: 10px;
+	color: var(--color-white);
+}

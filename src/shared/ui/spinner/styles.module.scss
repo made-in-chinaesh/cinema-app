@@ -1,0 +1,11 @@
+.spinner {
+	@apply animate-spin;
+}
+
+.light {
+	@apply text-white;
+}
+
+.dark {
+	@apply text-black;
+}

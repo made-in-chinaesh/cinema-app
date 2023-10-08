@@ -1,0 +1,1 @@
+export { findGenreWithId } from './findGenreWithId'

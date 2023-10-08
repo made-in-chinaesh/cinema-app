@@ -1,0 +1,13 @@
+.btn {
+	svg {
+		color: gray;
+		transition: 300ms;
+		&:hover {
+			color: var(--color-white);
+		}
+
+		@media (max-width: 768px) {
+			color: var(--color-white);
+		}
+	}
+}

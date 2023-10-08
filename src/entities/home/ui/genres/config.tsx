@@ -1,0 +1,120 @@
+import {
+	BsBook as HistoryIcon,
+	BsBox as CrimeIcon,
+	BsEmojiSmile as ComedyIcon,
+	BsFiles as DocumentaryIcon,
+	BsFillHeartbreakFill as DramaIcon,
+	BsHeadsetVr as MysteryIcon,
+	BsHouseHeart as FamilyIcon,
+	BsMap as AdventureIcon,
+	BsPalette as CartoonIcon,
+	BsRocket as FantasyIcon,
+	BsShieldShaded as ActionIcon,
+	BsSignStop as WarIcon,
+	BsSnapchat as HorrorIcon,
+} from 'react-icons/bs'
+import { paths } from '@/shared/routing'
+
+export enum GenresEnum {
+	Action = 28,
+	Adventure = 12,
+	Cartoon = 16,
+	Comedy = 35,
+	Crime = 80,
+	Documentary = 99,
+	Drama = 18,
+	Family = 10751,
+	Fantasy = 14,
+	History = 36,
+	Horror = 27,
+	Mystery = 9648,
+	Fantastic = 878,
+	War = 10752,
+}
+
+export const genres = [
+	{
+		id: 28,
+		name: 'Боевик',
+		icon: <ActionIcon />,
+		href: paths.catalog({ genre: String(GenresEnum.Action) }),
+	},
+	{
+		id: 12,
+		name: 'Приключения',
+		icon: <AdventureIcon />,
+		href: paths.catalog({ genre: String(GenresEnum.Adventure) }),
+	},
+	{
+		id: 16,
+		name: 'Мультфильм',
+		icon: <CartoonIcon />,
+		href: paths.catalog({ genre: String(GenresEnum.Cartoon) }),
+	},
+	{
+		id: 35,
+		name: 'Комедия',
+		icon: <ComedyIcon />,
+		href: paths.catalog({ genre: String(GenresEnum.Comedy) }),
+	},
+	{
+		id: 80,
+		name: 'Криминал',
+		icon: <CrimeIcon />,
+		href: paths.catalog({ genre: String(GenresEnum.Crime) }),
+	},
+	{
+		id: 99,
+		name: 'Документальный',
+		icon: <DocumentaryIcon />,
+		href: paths.catalog({ genre: String(GenresEnum.Documentary) }),
+	},
+	{
+		id: 18,
+		name: 'Драма',
+		icon: <DramaIcon />,
+		href: paths.catalog({ genre: String(GenresEnum.Drama) }),
+	},
+	{
+		id: 10751,
+		name: 'Семейный',
+		icon: <FamilyIcon />,
+		href: paths.catalog({ genre: String(GenresEnum.Family) }),
+	},
+	{
+		id: 14,
+		name: 'Фэнтези',
+		icon: <FantasyIcon />,
+		href: paths.catalog({ genre: String(GenresEnum.Fantasy) }),
+	},
+	{
+		id: 36,
+		name: 'История',
+		icon: <HistoryIcon />,
+		href: paths.catalog({ genre: String(GenresEnum.History) }),
+	},
+	{
+		id: 27,
+		name: 'Ужасы',
+		icon: <HorrorIcon />,
+		href: paths.catalog({ genre: String(GenresEnum.Horror) }),
+	},
+	{
+		id: 9648,
+		name: 'Детектив',
+		icon: <MysteryIcon />,
+		href: paths.catalog({ genre: String(GenresEnum.Mystery) }),
+	},
+	{
+		id: 878,
+		name: 'Фантастика',
+		icon: <FantasyIcon />,
+		href: paths.catalog({ genre: String(GenresEnum.Fantasy) }),
+	},
+	{
+		id: 10752,
+		name: 'Военный',
+		icon: <WarIcon />,
+		href: paths.catalog({ genre: String(GenresEnum.War) }),
+	},
+]

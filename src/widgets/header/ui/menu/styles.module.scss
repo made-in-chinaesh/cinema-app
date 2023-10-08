@@ -1,0 +1,40 @@
+.menu {
+	@apply fixed w-full h-screen flex flex-col z-20 bg-black;
+	left: -100%;
+	top: 0;
+	transition: 200ms;
+
+	&.isOpenMenu {
+		left: 0;
+	}
+}
+
+.list {
+	@apply flex flex-col;
+}
+
+.item {
+	@apply text-3xl font-medium text-white m-2;
+}
+
+.menuClose {
+	svg {
+		width: 40px;
+		height: 40px;
+	}
+}
+
+.link {
+	@apply relative pl-2;
+	&::before {
+		content: '';
+		width: 2px;
+		@apply absolute h-full left-0 top-0;
+	}
+
+	&.isCurrent {
+		&::before {
+			background: var(--color-white);
+		}
+	}
+}

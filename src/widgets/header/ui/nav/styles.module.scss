@@ -1,0 +1,55 @@
+.nav {
+	@apply h-full;
+
+	@media (max-width: 768px) {
+		display: none;
+	}
+}
+
+.list {
+	@apply flex items-center;
+}
+
+.link {
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	font-size: 16px;
+	opacity: 0.6;
+	transition: opacity 0.3s;
+	margin-left: 20px;
+	line-height: 62px;
+
+	color: var(--color-white);
+
+	&:before {
+		content: '';
+		display: none;
+		position: absolute;
+		bottom: 0;
+		left: -10px;
+		right: -10px;
+		height: 2px;
+		background: linear-gradient(
+			270deg,
+			transparent 0.17%,
+			var(--color-primary) 15%,
+			var(--color-white) 50%,
+			var(--color-primary) 85%,
+			transparent
+		);
+	}
+
+	&.isCurrent {
+		opacity: 1;
+
+		&:before {
+			display: block;
+		}
+	}
+
+	&:hover {
+		opacity: 1;
+	}
+}
