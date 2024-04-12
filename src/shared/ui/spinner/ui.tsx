@@ -6,10 +6,10 @@ import styles from './styles.module.scss'
 interface SpinnerProps {
 	size?: number
 	className?: string
-	color: 'white' | 'black'
+	color?: 'white' | 'black'
 }
 
-export const Spinner = ({ size, className, color }: SpinnerProps) => {
+export const Spinner = ({ size, className, color = 'white' }: SpinnerProps) => {
 	return (
 		<BiLoaderAlt
 			className={cn(

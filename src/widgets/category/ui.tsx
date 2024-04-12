@@ -1,14 +1,9 @@
 import { PropsWithChildren } from 'react'
 
-import {
-	CarouselMultiply,
-	CarouselMultiplyProps,
-	Spinner,
-	Title,
-} from '@/shared/ui'
+import { CarouselMultiply, CarouselMultiplyProps, Title } from '@/shared/ui'
+import Link from 'next/link'
 import { BsChevronRight as IconRight } from 'react-icons/bs'
 import { FreeMode, Navigation } from 'swiper/modules'
-import Link from 'next/link'
 
 import cn from 'classnames'
 import styles from './styles.module.scss'
@@ -49,24 +44,19 @@ function CategoryCarousel<T>({
 	slideClassName,
 	...props
 }: CarouselMultiplyProps<T>) {
+	const mock = [1, 2, 3, 4, 5, 6]
 	return (
 		<div className={styles.wrapper}>
-			{items ? (
-				<CarouselMultiply
-					modules={[FreeMode, Navigation]}
-					freeMode={{ momentumBounceRatio: 0 }}
-					prevBtnClass={styles.prevBtn}
-					nextBtnClass={styles.nextBtn}
-					className={styles.slider}
-					slideClassName={cn(styles.slide, slideClassName)}
-					items={items}
-					{...props}
-				/>
-			) : (
-				<div className={styles.loader}>
-					<Spinner color='white' size={50} />
-				</div>
-			)}
+			<CarouselMultiply
+				modules={[FreeMode, Navigation]}
+				freeMode={{ momentumBounceRatio: 0 }}
+				prevBtnClass={styles.prevBtn}
+				nextBtnClass={styles.nextBtn}
+				className={styles.slider}
+				slideClassName={cn(styles.slide, slideClassName)}
+				items={items as keyof typeof items}
+				{...props}
+			/>
 		</div>
 	)
 }
