@@ -5,7 +5,7 @@ export const Info = () => {
 		<section className='container'>
 			<div className={styles.info}>
 				<h2>
-					Добро пожаловать на Cinehome - онлайн кинотеатр с более чем 960
+					Добро пожаловать на CINEHOME - онлайн кинотеатр с более чем 960
 					тысячами фильмов!
 				</h2>
 				<p>

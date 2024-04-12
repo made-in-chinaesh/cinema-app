@@ -25,11 +25,9 @@
 	}
 }
 
-.loading {
-	padding: 10px 15px;
-	border: 1px solid gray;
-	background: rgba(157, 157, 157, 0.5);
-	width: fit-content;
-	border-radius: 10px;
-	color: var(--color-white);
+.loader {
+	height: calc(100vh - 153px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
