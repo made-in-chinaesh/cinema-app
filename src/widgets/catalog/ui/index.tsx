@@ -25,7 +25,7 @@ export const Catalog = ({ title }: CatalogProps) => {
 				))}
 			</div>
 			<div ref={childRef} />
-			{true && (
+			{isLoading && (
 				<div className={styles.loader}>
 					<Spinner size={60} />
 				</div>
